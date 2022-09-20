@@ -9,6 +9,8 @@ $row=mysqli_fetch_array($result);
 
 <html>
 <head>
+<link href="../img/drop.png" rel="icon">
+
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>

@@ -4,6 +4,7 @@
 
 
 <title>BDMS</title>
+<link href="../img/drop.png" rel="icon">
 
 <!-- Bootstrap Core CSS -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">

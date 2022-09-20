@@ -4,6 +4,7 @@
 <head>
 
     <title>BDMS</title>
+    <link href="../img/drop.png" rel="icon">
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -62,12 +63,10 @@
 										//update query
 										$qry = "update blood set name='$name', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup', address='$address', contact='$contact', bloodqty='$bloodqty', collection='$collection' where id='$id'";
 										$result = mysqli_query($conn,$qry); //query executes
-										if(!$result){
-											echo"ERROR". mysqli_error();
-										}else {
+									
 											echo"SUCCESSFULLY UPDATED";
 											// header ("Location:editblood.php");
-										}
+										
 								?>
 
                                   </form>

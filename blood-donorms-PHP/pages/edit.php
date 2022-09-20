@@ -12,6 +12,7 @@
     <meta name="author" content="">
 
     <title>BDMS</title>
+    <link href="../img/drop.png" rel="icon">
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -73,14 +74,11 @@
 				$qry = "update donor set name='$name', guardiansname='$guardiansname', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup', email='$email', address='$address', contact='$contact' where id='$id'";
 				$result = mysqli_query($conn,$qry); //query executes
 
-				if(!$result){
-					echo"ERROR". mysqli_error();
-				}else {
+				
 					echo"SUCCESSFULLY UPDATED";
 					// header("Location:editview.php");
 
-				}
-
+				
 
 ?>
 

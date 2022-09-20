@@ -11,6 +11,7 @@
         <meta name="author" content="">
 
         <title>BDMS - Admin Panel</title>
+        <link href="../img/drop.png" rel="icon">
 
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -134,7 +135,7 @@
 	<footer class="page-footer font-small special-color-dark pt-4">
 		<!-- Copyright -->
 		<div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?>
-		 Developed  By Blood doner management system
+		 Developed  By RSN devloper
 		</div>
 		<!-- Copyright -->
 

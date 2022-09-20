@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>BDMS</title>
+    <link href="../img/drop.png" rel="icon">
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -63,7 +64,7 @@
                                      
                                         <div class="form-group">
                                             <label>Enter Full Name</label>
-                                            <input class="form-control" name="name" type="text" placeholder="Example:Harry Den" required>
+                                            <input class="form-control" name="name" type="text" placeholder="Enter Full Name" required>
                                         </div>
                                         <div class="form-group">
                                             <label>Enter Guardian's Name</label>
@@ -174,7 +175,7 @@
 </body>
 
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed  By Blood doner management system</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed  By RSN devloper</p>
     </footer>
 	
 	<style>

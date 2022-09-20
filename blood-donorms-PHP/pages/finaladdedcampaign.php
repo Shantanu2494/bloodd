@@ -58,12 +58,10 @@ $id=$_POST['id'];
 //update query
 $qry = "update campaigndb set cname='$cname', oname='$oname', phn='$phn', cdate='$cdate', descp='$descp' where id='$id'";
 $result = mysqli_query($conn,$qry); //query executes
-if(!$result){
-    echo"ERROR". mysqli_error();
-}else {
+
     echo"CAMPAIGN UPDATED";
     // header ("Location:editblood.php");
-}
+
 ?>
 
                                   </form>

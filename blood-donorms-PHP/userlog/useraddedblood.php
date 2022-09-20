@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>BDMS</title>
+    <link href="../img/drop.png" rel="icon">
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -117,7 +118,7 @@
 </body>
 
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By RSN devloper</p>
     </footer>
 	
 	<style>

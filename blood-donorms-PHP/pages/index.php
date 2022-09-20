@@ -22,7 +22,7 @@ $result= mysqli_query($conn,$qry);
     <meta name="author" content="">
 
     <title>BDMS</title>
-
+    <link href="../img/drop.png" rel="icon">
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
